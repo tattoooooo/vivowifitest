@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<vivoAutoTest>
+  <!--
+  <DataBase Enable="True" ConnectString="Server=DG-10963734\SQLEXPRESS_WZT; database=RF_DataBase;uid=sa;pwd=wuzitao.3734"/>
+  -->
+  <DataBase Enable="False" ConnectString="Server=172.20.140.183; database=RF_DataBase;uid=sa;pwd=wuzitao.3734"/>
+  <page>
+    <wifi>
+      <wifipageconfig Testtype="1"></wifipageconfig><!--"0"代表信令测试，"1"代表非信令测试-->
+      <WiFi_Andriod_R SSID="CMW-AP" PassWord="12345678"></WiFi_Andriod_R>
+      <SamsungWlanPort port="2543"></SamsungWlanPort>
+    </wifi>
+  </page>
+  <SamsungNonSignaling>
+    <DPDT_AntState>3</DPDT_AntState>
+    <!--InnerText："0"关闭dpdt,此时天线处于上天线状态，"1"代表dpdt打开，此时天线处于下天线状态，“2”代表天线处于动态切换状态，此时天线的状态取决于RSSI的大小,“3”代表顺序测试上线天线状态-->
+    <DownAntRxIsTest>0</DownAntRxIsTest>
+    <!--InnerText："0"不测试下天线rx，测试下天下RX-->
+    <SUBTX>0</SUBTX>
+    <!--"0"代表不存在该通路，"1"代表存在该通路-->
+    <SubTxBand>41,78</SubTxBand>
+    <WithMIMO_Band>1,38,41,78,79</WithMIMO_Band>
+    <!--具有MIMO功能的频段，只有此处有频段号的频段才会测试MIMO-->
+    <With6rx>41</With6rx>
+    <!--具有6rx功能的频段，只有此处有频段号的频段才会测试6rx-->
+    <DRX>1</DRX>
+    <!--"0"代表不存在该通路，"1"代表存在该通路-->
+    <MIMO1>1</MIMO1>
+    <!--"0"代表不存在该通路，"1"代表存在该通路-->
+    <MIMO2>1</MIMO2>
+    <!--"0"代表不存在该通路，"1"代表存在该通路-->
+    <Tx2_PRX>1</Tx2_PRX>
+    <!--"0"代表不存在该通路，"1"代表存在该通路-->
+    <Tx2_DRX>1</Tx2_DRX>
+    <!--"0"代表不存在该通路，"1"代表存在该通路-->
+    <SRS>0</SRS>
+    <!--SRS值范围0~4-->
+  </SamsungNonSignaling>
+  <NoSignaling>
+    <PowerClass>
+      <Band name="LTE_Band1">23</Band>
+      <Band name="LTE_Band2">23</Band>
+      <Band name="LTE_Band3">23</Band>
+      <Band name="LTE_Band4">23</Band>
+      <Band name="LTE_Band5">23</Band>
+      <Band name="LTE_Band6">23</Band>
+      <Band name="LTE_Band7">23</Band>
+      <Band name="LTE_Band8">23</Band>
+      <Band name="LTE_Band9">23</Band>
+      <Band name="LTE_Band10">23</Band>
+      <Band name="LTE_Band11">23</Band>
+      <Band name="LTE_Band12">23</Band>
+      <Band name="LTE_Band13">23</Band>
+      <Band name="LTE_Band14">23</Band>
+      <Band name="LTE_Band15">23</Band>
+      <Band name="LTE_Band16">23</Band>
+      <Band name="LTE_Band17">23</Band>
+      <Band name="LTE_Band18">23</Band>
+      <Band name="LTE_Band19">23</Band>
+      <Band name="LTE_Band20">23</Band>
+      <Band name="LTE_Band21">23</Band>
+      <Band name="LTE_Band22">23</Band>
+      <Band name="LTE_Band23">23</Band>
+      <Band name="LTE_Band24">23</Band>
+      <Band name="LTE_Band25">23</Band>
+      <Band name="LTE_Band24">23</Band>
+      <Band name="LTE_Band25">23</Band>
+      <Band name="LTE_Band26">23</Band>
+      <Band name="LTE_Band27">23</Band>
+      <Band name="LTE_Band28">23</Band>
+      <Band name="LTE_Band29">23</Band>
+      <Band name="LTE_Band30">23</Band>
+      <Band name="LTE_Band31">23</Band>
+      <Band name="LTE_Band32">23</Band>
+      <Band name="LTE_Band33">23</Band>
+      <Band name="LTE_Band34">23</Band>
+      <Band name="LTE_Band35">23</Band>
+      <Band name="LTE_Band36">23</Band>
+      <Band name="LTE_Band37">23</Band>
+      <Band name="LTE_Band38">23</Band>
+      <Band name="LTE_Band39">23</Band>
+      <Band name="LTE_Band40">23</Band>
+      <Band name="LTE_Band41">23</Band>
+      <Band name="LTE_Band42">23</Band>
+      <Band name="LTE_Band43">23</Band>
+      <Band name="LTE_Band44">23</Band>
+      <Band name="NR_N1">23</Band>
+      <Band name="NR_N2">23</Band>
+      <Band name="NR_N3">23</Band>
+      <Band name="NR_N5">23</Band>
+      <Band name="NR_N7">23</Band>
+      <Band name="NR_N8">23</Band>
+      <Band name="NR_N12">26</Band>
+      <Band name="NR_N20">23</Band>
+      <Band name="NR_N25">26</Band>
+      <Band name="NR_N28">23</Band>
+      <Band name="NR_N66">26</Band>
+      <Band name="NR_N70">26</Band>
+      <Band name="NR_N71">26</Band>
+      <Band name="NR_N74">26</Band>
+      <Band name="NR_N34">26</Band>
+      <Band name="NR_N38">23</Band>
+      <Band name="NR_N39">26</Band>
+      <Band name="NR_N40">26</Band>
+      <Band name="NR_N41">26</Band>
+      <Band name="NR_N50">26</Band>
+      <Band name="NR_N51">26</Band>
+      <Band name="NR_N77">26</Band>
+      <Band name="NR_N78">26</Band>
+      <Band name="NR_N79">26</Band>
+      <Band name="NR_N80">26</Band>
+      <Band name="NR_N81">26</Band>
+      <Band name="NR_N82">26</Band>
+      <Band name="NR_N83">26</Band>
+      <Band name="NR_N84">26</Band>
+      <Band name="NR_N85">26</Band>
+      <Band name="NR_N86">26</Band>
+    </PowerClass>
+    <CCM_INTERFER>
+      <LTE_RBP_L_Channels>18050,18300,18650,18900,19250,19575,20175,20525,21100,21625,23095,23790,23925,24075,24300,26090,26365,26865,27310,27560,36275,37850,38000,38450,38750,39150,39440,40640</LTE_RBP_L_Channels>
+      <LTE_RBP_H_Channels>18550,19150,19900,26640,38150,39550,41340</LTE_RBP_H_Channels>
+      <NR_RBP_L_Channels>623334,636666,696666,713334,623334,650000,513000,519000</NR_RBP_L_Channels>
+      <NR_RBP_H_Channels>650000,730000,676666,525000</NR_RBP_H_Channels>
+    </CCM_INTERFER>
+  </NoSignaling>
+  <Signaling>
+    <LTE>
+      <Tuner_REF_SEN_Limits>
+        BAND1:N/A,N/A,-100,-97,-95.2,-94;BAND2:-102.7,-99.7,-98,-95,-93.2,-92;BAND3:-101.7,-98.7,-97,-94,-92.2,-91;BAND4:-104.7,-101.7,-100,-97,-95.2,-94;BAND5:-103.2,-100.2,-98,-95,N/A,N/A;BAND6:N/A,N/A,-100,-97,N/A,N/A;BAND7:N/A,N/A,-98,-95,-93.2,-92;BAND8:-102.2,-99.2,-97,-94,N/A,N/A;BAND9:N/A,N/A,-99,-96,-94.2,-93;BAND10:N/A,N/A,-100,-97,-95.2,-94;BAND11:N/A,N/A,-100,-97,N/A,N/A;BAND12:-101.7,-98.7,-97,-94,N/A,N/A;BAND13:N/A,N/A,-97,-94,N/A,N/A;BAND14:N/A,N/A,-97,-94,N/A,N/A;BAND17:N/A,N/A,-97,-94,N/A,N/A;BAND18:N/A,N/A,-1007,-977,-95.27,N/A;BAND19:N/A,N/A,-100,-97,-95.2,N/A;BAND20:N/A,N/A,-97,-94,-91.2,-90;BAND21:N/A,N/A,-100,-97,-95.2,N/A;BAND22:N/A,N/A,-97,-94,-92.2,-91;BAND23:-104.7,-101.7,-100,-97,-95.2,-94;BAND24:N/A,N/A,-100,-97,N/A,N/A;BAND25:-101.2,-98.2,-96.5,-93.5,-91.7,-90.5;BAND26:-102.7,-99.7,-97.56,-94.56,-92.76,N/A;BAND27:-103.2,-100.2,-98,-95,N/A,N/A;BAND28:N/A,-100.2,-98.5,-95.5,-93.7,-91;BAND30:N/A,N/A,-99,-96,N/A,N/A;BAND31:-99,-95.7,-93.5,N/A,N/A,N/A;BAND33:N/A,N/A,-100,-97,-95.2,-94;BAND34:N/A,N/A,-100,-97,-95.2,;BAND35:-106.2,-102.2,-100,-97,-95.2,-94;BAND36:-106.2,-102.2,-100,-97,-95.2,-94;BAND37:N/A,N/A,-100,-97,-95.2,-94;BAND38:N/A,N/A,-100,-97,-95.2,-94;BAND39:N/A,N/A,-100,-97,-95.2,-94;BAND40:N/A,N/A,-100,-97,-95.2,-94;BAND41:N/A,N/A,-98,-95,-93.2,-92;BAND42:N/A,N/A,-99,-96,-94.2,-93;BAND43:N/A,N/A,-99,-96,-94.2,-93;BAND44:N/A,-100.2,-98,-95,-93.2,-92;BAND45:N/A,N/A,-100,-97,-95.2,-94;BAND48:N/A,N/A,-99,-96,-94.2,-93;BAND50:N/A,-102.2,-100,-97,-95.2,-94;BAND51:N/A,-102.2,-100,N/A,N/A,N/A;BAND52:N/A,N/A,-99,-96,-94.2,-93;BAND53:-106.2,-102.2,-100,-97,N/A,N/A;BAND65:-104.2,-101.2,-99.5,-96.5,-94.7,-93.5;BAND66:-104.2,-101.2,-99.5,-96.5,-94.7,-93.5;BAND68:N/A,N/A,-98.5,-95.5,-93.7,N/A;BAND70:N/A,N/A,-100,-97,-95.2,-94;BAND71:N/A,N/A,-97.2,-94.2,-92,-87.5;BAND72:-99,-95.7,-93.5,N/A,N/A,N/A;BAND73:-99,-95.7,-93.5,N/A,N/A,N/A;BAND74:-104.78,-101.78,-99.58,-96.58,-94.78,-93.58;BAND85:N/A,N/A,-97,-94,N/A,N/A;BAND87:-99,-95.7,-93.5,N/A,N/A,N/A;BAND88:-99,-95.7,-93.5,N/A,N/A,N/A
+      </Tuner_REF_SEN_Limits>
+    </LTE>
+    <WCDMA>
+      <Tuner_REF_SEN_Limits>
+         BAND1:-106;BAND2:-106;BAND4:-106;BAND5:-106;BAND8:-106
+      </Tuner_REF_SEN_Limits>
+    </WCDMA>
+    <GSM>
+      <Tuner_REF_SEN_Limits>
+        GSM850:-107;EGSM900:-107;DCS1800:-107;PCS1900:-107
+      </Tuner_REF_SEN_Limits>
+    </GSM>
+    <CDMA>
+      <Tuner_REF_SEN_Limits>
+        BC0:-106;BC1:-106;BC10:-106
+      </Tuner_REF_SEN_Limits>
+    </CDMA>
+  </Signaling>
+  <LTE_A>
+    <LowRange freqs="2557.5,2560,2562.5,2565,2537.5,2540,2542.5,2545,2557.5,2560,2562.5,2565,2517.5,2520,2522.5,2525,2498.5,2501,2503.5,2506"></LowRange>
+    <MidRange freqs="2605,2595,2615,2595,2593"></MidRange>
+    <HigRange freqs="2652.5,2650,2647.5,2645,2652.5,2650,2647.5,2645,2672.5,2670,2667.5,2665,2672.5,2670,2667.5,2665,2687.5,2685,2682.5,2680"></HigRange>
+  </LTE_A>
+</vivoAutoTest>

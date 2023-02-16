@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B1BD1392-8C7E-41D3-895C-0EC963D91384}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>vivoautotestwifi</RootNamespace>
+    <AssemblyName>vivoautotestwifi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BetaIOC">
+      <HintPath>..\..\..\tempBox(excel_01)\vivo-rf-test-tool\vivo Auto Test\lib\BetaIoc\BetaIOC.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelLibrary">
+      <HintPath>..\..\..\tempBox(excel_01)\vivo-rf-test-tool\vivo Auto Test\lib\deflib\ExcelLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="FirstFloor.ModernUI, Version=1.0.9.0, Culture=neutral, PublicKeyToken=bc9b0c37bf06c6a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\ModernUI.WPF.1.0.9\lib\net45\FirstFloor.ModernUI.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.15\lib\net45\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.VisaNS">
+      <HintPath>..\..\..\tempBox(excel_01)\vivo-rf-test-tool\vivo Auto Test\lib\NationalInstruments.VisaNS.dll</HintPath>
+    </Reference>
+    <Reference Include="QC.QMSLPhone">
+      <HintPath>..\..\..\tempBox(excel_01)\vivo-rf-test-tool\vivo Auto Test\lib\deflib\Lib\QC.QMSLPhone.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Control\CommunicateUtils.cs" />
+    <Compile Include="Control\GlobalCommunicate.cs" />
+    <Compile Include="Control\SerialPortControl.cs" />
+    <Compile Include="CustomizeToast\ChoseDevice.xaml.cs">
+      <DependentUpon>ChoseDevice.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomizeToast\InputRFLineNameDialog.xaml.cs">
+      <DependentUpon>InputRFLineNameDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Drives\NoSignaling\SAMSUNG\SamsungATClass.cs" />
+    <Compile Include="Drives\NoSignaling\SAMSUNG\SamsungCellularTest.cs" />
+    <Compile Include="Drives\NoSignaling\SAMSUNG\SAMSUNG_WLAN.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="MainQueue\ICType\MTK\MT6635\MT6635.cs" />
+    <Compile Include="MainQueue\ICType\MTK\MTK_Librarys\MTK_Library.cs" />
+    <Compile Include="MainQueue\ICType\MTK\MTK_Librarys\MTK_Library._BaseData.cs" />
+    <Compile Include="MainQueue\ICType\MTK\MTK_Librarys\MTK_Library_Def.cs" />
+    <Compile Include="MainQueue\waveforms\WaveForm.cs" />
+    <Compile Include="MainQueue\WifiTest.cs" />
+    <Compile Include="MainQueue\WiFi_Function.cs" />
+    <Compile Include="Pages\LogMessage.cs" />
+    <Compile Include="Pages\ObservableList.cs" />
+    <Compile Include="Pages\Wifi\waveforms\WaveForm.cs" />
+    <Compile Include="Pages\Wifi\wifiConfig.xaml.cs">
+      <DependentUpon>wifiConfig.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Wifi\WiFiConfigDong.xaml.cs">
+      <DependentUpon>WiFiConfigDong.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Test.cs" />
+    <Page Include="CustomizeToast\ChoseDevice.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CustomizeToast\InputRFLineNameDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Localization\StringResource.zh-CN.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Pages\Settings\About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="Pages\Settings\About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Pages\Settings\Appearance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="Pages\Settings\Appearance.xaml.cs">
+      <DependentUpon>Appearance.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Settings\AppearanceViewModel.cs" />
+    <Page Include="Pages\Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\SettingsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="Pages\Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Page Include="Pages\Wifi\wifiConfig.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Wifi\WiFiConfigDong.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CustomizeToast\EnterRecord" />
+    <None Include="MainQueue\waveforms\2G4_B\WiFi_CCK-11L.iqvsg" />
+    <None Include="MainQueue\waveforms\2G4_B\WiFi_CCK-5_5L.iqvsg" />
+    <None Include="MainQueue\waveforms\2G4_B\WiFi_DSSS-1.iqvsg" />
+    <None Include="MainQueue\waveforms\2G4_B\WiFi_DSSS-2L.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M MIMO\WiFi_11AC_VHT20_S2_MCS0.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M MIMO\WiFi_11AC_VHT20_S2_MCS1.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M MIMO\WiFi_11AC_VHT20_S2_MCS2.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M MIMO\WiFi_11AC_VHT20_S2_MCS3.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M MIMO\WiFi_11AC_VHT20_S2_MCS4.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M MIMO\WiFi_11AC_VHT20_S2_MCS5.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M MIMO\WiFi_11AC_VHT20_S2_MCS6.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M MIMO\WiFi_11AC_VHT20_S2_MCS7.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M MIMO\WiFi_11AC_VHT20_S2_MCS8.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS0.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS0_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS1.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS1_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS2.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS2_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS3.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS3_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS4.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS4_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS5.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS5_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS6.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS6_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS7.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS7_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS8.iqvsg" />
+    <None Include="MainQueue\waveforms\AC20M\WiFi_11AC_VHT20_S1_MCS8_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M MIMO\WiFi_11AC_VHT40_S2_MCS0.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M MIMO\WiFi_11AC_VHT40_S2_MCS1.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M MIMO\WiFi_11AC_VHT40_S2_MCS2.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M MIMO\WiFi_11AC_VHT40_S2_MCS3.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M MIMO\WiFi_11AC_VHT40_S2_MCS4.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M MIMO\WiFi_11AC_VHT40_S2_MCS5.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M MIMO\WiFi_11AC_VHT40_S2_MCS6.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M MIMO\WiFi_11AC_VHT40_S2_MCS7.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M MIMO\WiFi_11AC_VHT40_S2_MCS8.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M MIMO\WiFi_11AC_VHT40_S2_MCS9.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS0.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS0_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS1.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS1_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS2.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS2_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS3.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS3_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS4.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS4_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS5.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS5_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS6.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS6_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS7.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS7_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS8.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS8_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS9.iqvsg" />
+    <None Include="MainQueue\waveforms\AC40M\WiFi_11AC_VHT40_S1_MCS9_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M MIMO\WiFi_11AC_VHT80_S2_MCS0.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M MIMO\WiFi_11AC_VHT80_S2_MCS1.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M MIMO\WiFi_11AC_VHT80_S2_MCS2.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M MIMO\WiFi_11AC_VHT80_S2_MCS3.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M MIMO\WiFi_11AC_VHT80_S2_MCS4.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M MIMO\WiFi_11AC_VHT80_S2_MCS5.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M MIMO\WiFi_11AC_VHT80_S2_MCS6.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M MIMO\WiFi_11AC_VHT80_S2_MCS7.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M MIMO\WiFi_11AC_VHT80_S2_MCS8.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M MIMO\WiFi_11AC_VHT80_S2_MCS9.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS0.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS0_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS1.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS1_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS2.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS2_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS3.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS3_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS4.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS4_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS5.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS5_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS6.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS6_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS7.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS7_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS8.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS8_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS9.iqvsg" />
+    <None Include="MainQueue\waveforms\AC80M\WiFi_11AC_VHT80_S1_MCS9_LDPC.iqvsg" />
+    <None Include="MainQueue\waveforms\AX20M\WiFi_11AX_HE20_S1_MCS0.iqvsg" />
+    <None Include="MainQueue\waveforms\AX20M\WiFi_11AX_HE20_S1_MCS1.iqvsg" />
+    <None Include="MainQueue\waveforms\AX20M\WiFi_11AX_HE20_S1_MCS10.iqvsg" />
+    <None Include="MainQueue\waveforms\AX20M\WiFi_11AX_HE20_S1_MCS11.iqvsg" />
+    <None Include="MainQueue\waveforms\AX20M\WiFi_11AX_HE20_S1_MCS2.iqvsg" />
+    <None Include="MainQueue\waveforms\AX20M\WiFi_11AX_HE20_S1_MCS3.iqvsg" />
+    <None Include="MainQueue\waveforms\AX20M\WiFi_11AX_HE20_S1_MCS4.iqvsg" />
+    <None Include="MainQueue\waveforms\AX20M\WiFi_11AX_HE20_S1_MCS5.iqvsg" />
+    <None Include="MainQueue\waveforms\AX20M\WiFi_11AX_HE20_S1_MCS6.iqvsg" />
+    <None Include="MainQueue\waveforms\AX20M\WiFi_11AX_HE20_S1_MCS7.iqvsg" />
+    <None Include="MainQueue\waveforms\AX20M\WiFi_11AX_HE20_S1_MCS8.iqvsg" />
+    <None Include="MainQueue\waveforms\AX20M\WiFi_11AX_HE20_S1_MCS9.iqvsg" />
+    <None Include="MainQueue\waveforms\AX40M\WiFi_11AX_HE40_S1_MCS0.iqvsg" />
+    <None Include="MainQueue\waveforms\AX40M\WiFi_11AX_HE40_S1_MCS1.iqvsg" />
+    <None Include="MainQueue\waveforms\AX40M\WiFi_11AX_HE40_S1_MCS10.iqvsg" />
+    <None Include="MainQueue\waveforms\AX40M\WiFi_11AX_HE40_S1_MCS11.iqvsg" />
+    <None Include="MainQueue\waveforms\AX40M\WiFi_11AX_HE40_S1_MCS2.iqvsg" />
+    <None Include="MainQueue\waveforms\AX40M\WiFi_11AX_HE40_S1_MCS3.iqvsg" />
+    <None Include="MainQueue\waveforms\AX40M\WiFi_11AX_HE40_S1_MCS4.iqvsg" />
+    <None Include="MainQueue\waveforms\AX40M\WiFi_11AX_HE40_S1_MCS5.iqvsg" />
+    <None Include="MainQueue\waveforms\AX40M\WiFi_11AX_HE40_S1_MCS6.iqvsg" />
+    <None Include="MainQueue\waveforms\AX40M\WiFi_11AX_HE40_S1_MCS7.iqvsg" />
+    <None Include="MainQueue\waveforms\AX40M\WiFi_11AX_HE40_S1_MCS8.iqvsg" />
+    <None Include="MainQueue\waveforms\AX40M\WiFi_11AX_HE40_S1_MCS9.iqvsg" />
+    <None Include="MainQueue\waveforms\AX80M\WiFi_11AX_HE80_S1_MCS0.iqvsg" />
+    <None Include="MainQueue\waveforms\AX80M\WiFi_11AX_HE80_S1_MCS1.iqvsg" />
+    <None Include="MainQueue\waveforms\AX80M\WiFi_11AX_HE80_S1_MCS10.iqvsg" />
+    <None Include="MainQueue\waveforms\AX80M\WiFi_11AX_HE80_S1_MCS11.iqvsg" />
+    <None Include="MainQueue\waveforms\AX80M\WiFi_11AX_HE80_S1_MCS2.iqvsg" />
+    <None Include="MainQueue\waveforms\AX80M\WiFi_11AX_HE80_S1_MCS3.iqvsg" />
+    <None Include="MainQueue\waveforms\AX80M\WiFi_11AX_HE80_S1_MCS4.iqvsg" />
+    <None Include="MainQueue\waveforms\AX80M\WiFi_11AX_HE80_S1_MCS5.iqvsg" />
+    <None Include="MainQueue\waveforms\AX80M\WiFi_11AX_HE80_S1_MCS6.iqvsg" />
+    <None Include="MainQueue\waveforms\AX80M\WiFi_11AX_HE80_S1_MCS7.iqvsg" />
+    <None Include="MainQueue\waveforms\AX80M\WiFi_11AX_HE80_S1_MCS8.iqvsg" />
+    <None Include="MainQueue\waveforms\AX80M\WiFi_11AX_HE80_S1_MCS9.iqvsg" />
+    <None Include="MainQueue\waveforms\G_A\WiFi_OFDM-12.iqvsg" />
+    <None Include="MainQueue\waveforms\G_A\WiFi_OFDM-18.iqvsg" />
+    <None Include="MainQueue\waveforms\G_A\WiFi_OFDM-24.iqvsg" />
+    <None Include="MainQueue\waveforms\G_A\WiFi_OFDM-36.iqvsg" />
+    <None Include="MainQueue\waveforms\G_A\WiFi_OFDM-48.iqvsg" />
+    <None Include="MainQueue\waveforms\G_A\WiFi_OFDM-54.iqvsg" />
+    <None Include="MainQueue\waveforms\G_A\WiFi_OFDM-6.iqvsg" />
+    <None Include="MainQueue\waveforms\G_A\WiFi_OFDM-9.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M MIMO\WiFi_HT20_MCS10.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M MIMO\WiFi_HT20_MCS11.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M MIMO\WiFi_HT20_MCS12.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M MIMO\WiFi_HT20_MCS13.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M MIMO\WiFi_HT20_MCS14.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M MIMO\WiFi_HT20_MCS15.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M MIMO\WiFi_HT20_MCS8.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M MIMO\WiFi_HT20_MCS9.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M\before WiFi_HT20_MCS0.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M\before WiFi_HT20_MCS7.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M\WiFi_HT20_MCS0.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M\WiFi_HT20_MCS0_LDPC1.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M\WiFi_HT20_MCS1.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M\WiFi_HT20_MCS2.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M\WiFi_HT20_MCS3.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M\WiFi_HT20_MCS4.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M\WiFi_HT20_MCS5.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M\WiFi_HT20_MCS6.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M\WiFi_HT20_MCS7.iqvsg" />
+    <None Include="MainQueue\waveforms\N20M\WiFi_HT20_MCS7_LDPC1.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M MIMO\WiFi_HT40_MCS10.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M MIMO\WiFi_HT40_MCS11.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M MIMO\WiFi_HT40_MCS12.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M MIMO\WiFi_HT40_MCS13.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M MIMO\WiFi_HT40_MCS14.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M MIMO\WiFi_HT40_MCS15.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M MIMO\WiFi_HT40_MCS8.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M MIMO\WiFi_HT40_MCS9.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M\WiFi_HT40_MCS0.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M\WiFi_HT40_MCS1.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M\WiFi_HT40_MCS2.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M\WiFi_HT40_MCS3.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M\WiFi_HT40_MCS4.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M\WiFi_HT40_MCS5.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M\WiFi_HT40_MCS6.iqvsg" />
+    <None Include="MainQueue\waveforms\N40M\WiFi_HT40_MCS7.iqvsg" />
+    <None Include="packages.config" />
+    <None Include="Pages\Wifi\Wi-Fi传导标准文件\不同平台标准.xlsx" />
+    <None Include="Report\非信令报表.xlsx" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\2G4\CriteriasXMLFile_2G4 - MT6625L&amp;iPA&amp;eLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\2G4\CriteriasXMLFile_2G4 - MT6625L&amp;iPA&amp;iLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\2G4\CriteriasXMLFile_2G4 - MT6635X标准文件.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\2G4\CriteriasXMLFile_2G4 - QCA6391标准文件_1008.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\2G4\CriteriasXMLFile_2G4 - WCN36X0&amp;ePA&amp;eLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\2G4\CriteriasXMLFile_2G4 - WCN36X0&amp;ePA&amp;iLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\2G4\CriteriasXMLFile_2G4 - WCN36X0&amp;iPA&amp;eLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\2G4\CriteriasXMLFile_2G4 - WCN36X0&amp;iPA&amp;iLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\2G4\CriteriasXMLFile_2G4 - WCN39X0&amp;iPA&amp;iLNA&amp;.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\2G4\MIMOCriteriasXMLFile_2G4.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\2G4\SamsungMIMOCriteriasXMLFile_2G4.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\CriteriasXMLFile_5G - MT6625L&amp;iPA&amp;eLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\CriteriasXMLFile_5G - MT6625L&amp;iPA&amp;iLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\CriteriasXMLFile_5G - MT6635X标准文件.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\CriteriasXMLFile_5G - QCA6391标准文件_1008.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\CriteriasXMLFile_5G - WCN36X0&amp;ePA&amp;eLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\CriteriasXMLFile_5G - WCN36X0&amp;ePA&amp;iLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\CriteriasXMLFile_5G - WCN36X0&amp;iPA&amp;eLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\CriteriasXMLFile_5G - WCN36X0&amp;iPA&amp;iLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\CriteriasXMLFile_5G - WCN39X0&amp;ePA&amp;eLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\CriteriasXMLFile_5G - WCN39X0&amp;ePA&amp;iLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\CriteriasXMLFile_5G - WCN39X0&amp;iPA&amp;eLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\CriteriasXMLFile_5G - WCN39X0&amp;iPA&amp;iLNA.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\MIMOCriteriasXMLFile_5G.xml" />
+    <Content Include="Pages\Wifi\Wi-Fi传导标准文件\5G\SamsungMIMOCriteriasXMLFile_5G.xml" />
+    <Content Include="Pages\Wifi\WiFiConfigDong.xml" />
+    <Content Include="XmlConfig\SystemConfig.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

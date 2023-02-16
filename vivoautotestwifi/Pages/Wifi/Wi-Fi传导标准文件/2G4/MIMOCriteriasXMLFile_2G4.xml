@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<criterias>    
+  <Agreement name="2G4_N20M">
+    <ratebit name="MCS9">
+      <limits name="发射功率">9.5,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-40,40</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="射频载波抑制">-15</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS10">
+      <limits name="发射功率">9.5,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-40,40</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="射频载波抑制">-15</limits>
+      <limits name="最小接收灵敏度">-80</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS11">
+      <limits name="发射功率">9.5,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-40,40</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="射频载波抑制">-15</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS12">
+      <limits name="发射功率">9.5,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-40,40</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="射频载波抑制">-15</limits>
+      <limits name="最小接收灵敏度">-73</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS13">
+      <limits name="发射功率">9.5,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-40,40</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="射频载波抑制">-15</limits>
+      <limits name="最小接收灵敏度">-69</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS14">
+      <limits name="发射功率">9.5,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-40,40</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="射频载波抑制">-15</limits>
+      <limits name="最小接收灵敏度">-68</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS15">
+      <limits name="发射功率">9.5,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-40,40</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="射频载波抑制">-15</limits>
+      <limits name="最小接收灵敏度">-67</limits>
+      <limits name="最大输入电平">-20</limits>
+    </ratebit>  
+  </Agreement>
+</criterias>

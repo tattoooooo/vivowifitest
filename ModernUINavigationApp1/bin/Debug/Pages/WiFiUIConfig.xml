@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WiFi_UI>
+  <TestInformation>
+    <Item name="Tester" text=""/>
+    <Item name="ProjectName" text=""/>
+    <Item name="ProjectStage" text=""/>
+    <Item name="HardwareVersion" text=""/>
+    <Item name="SoftwareVersion" text=""/>
+  </TestInformation>
+  <SystemInformation>
+    <WiFi_IC name="WiFi IC" text=""/>
+    <TestMode name="TestMode" text=""/>
+    <TestChain name="TestChain" text=""/>
+
+   <Limits name="Limits" text=""/>
+ 
+    <Port name="Port" text=""/>
+    <Instrument name="Instrument" text=""/>
+    <!--IQxel name="IQxel" text=""/-->
+     <Item name="IP" text=""/>
+    
+    <WaveFile name="WaveFile" text=""/>
+  </SystemInformation>
+  <TestArgument>
+    <TestBAND name="2G4" text="0.8">
+      <Argument name="B" Channelstr="1,6,13" ChannelFreqstr="2412,2437,2472">
+        <Rate name="1Mbit/s" ENP=""/>
+        <Rate name="2Mbit/s" ENP=""/>
+        <Rate name="5.5Mbit/s" ENP=""/>
+        <Rate name="11Mbit/s" ENP=""/>
+        
+      </Argument>
+      <Argument name="G" Channelstr="1,6,13" ChannelFreqstr="2412,2437,2472">
+        <Rate name="6Mbit/s" ENP=""/>
+        <Rate name="9Mbit/s" ENP=""/>
+        <Rate name="12Mbit/s" ENP=""/>
+        <Rate name="18Mbit/s" ENP=""/>
+        <Rate name="24Mbit/s" ENP=""/>
+        <Rate name="36Mbit/s" ENP=""/>
+        <Rate name="48Mbit/s" ENP=""/>
+        <Rate name="54Mbit/s" ENP=""/>
+      </Argument>
+      <Argument name="N20M" Channelstr="1,6,13" ChannelFreqstr="2412,2437,2472">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+        <!--author 何苹 Samsung WiFi MIMO
+        <Rate name="MCS9" ENP=""/>
+        <Rate name="MCS10" ENP=""/>
+        <Rate name="MCS11" ENP=""/>
+        <Rate name="MCS12" ENP=""/>
+        <Rate name="MCS13" ENP=""/>
+        <Rate name="MCS14" ENP=""/>
+        <Rate name="MCS15" ENP=""/>     -->
+      </Argument>
+      <Argument name="N40M" Channelstr="1,6,13" ChannelFreqstr="2412,2437,2472">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+      </Argument>
+      <Argument name="AC20M" Channelstr="1,6,13" ChannelFreqstr="2412,2437,2472">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+        <Rate name="MCS8" ENP=""/>
+      </Argument>
+      <!--6391-->
+      <Argument name="AX20M" Channelstr="1,6,13" ChannelFreqstr="2412,2437,2472">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+        <Rate name="MCS8" ENP=""/>
+        <Rate name="MCS9" ENP=""/>
+        <Rate name="MCS10" ENP=""/>
+        <Rate name="MCS11" ENP=""/>
+        <Rate name="MCS12" ENP=""/>
+        <Rate name="MCS13" ENP=""/>
+      </Argument>
+      <Argument name="AX40M" Channelstr="1,6,13" ChannelFreqstr="2412,2437,2472">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+        <Rate name="MCS8" ENP=""/>
+        <Rate name="MCS9" ENP=""/>
+        <Rate name="MCS10" ENP=""/>
+        <Rate name="MCS11" ENP=""/>
+        <Rate name="MCS12" ENP=""/>
+        <Rate name="MCS13" ENP=""/>
+      </Argument>
+    </TestBAND>
+    <TestBAND name="5G1" text="1.4">
+      <Argument name="A" Channelstr="36,48,64,149,157,165" ChannelFreqstr="5180,5240,5320,5745,5785,5825">
+        <Rate name="6Mbit/s" ENP=""/>
+        <Rate name="9Mbit/s" ENP=""/>
+        <Rate name="12Mbit/s" ENP=""/>
+        <Rate name="18Mbit/s" ENP=""/>
+        <Rate name="24Mbit/s" ENP=""/>
+        <Rate name="36Mbit/s" ENP=""/>
+        <Rate name="48Mbit/s" ENP=""/>
+        <Rate name="54Mbit/s" ENP=""/>
+      </Argument>
+      <Argument name="N20M" Channelstr="36,48,64,149,157,165" ChannelFreqstr="5180,5240,5320,5745,5785,5825">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+        
+        <!--author 何苹 Samsung WiFi MIMO
+        <Rate name="MCS9" ENP=""/>
+        <Rate name="MCS10" ENP=""/>
+        <Rate name="MCS11" ENP=""/>
+        <Rate name="MCS12" ENP=""/>
+        <Rate name="MCS13" ENP=""/>
+        <Rate name="MCS14" ENP=""/>
+        <Rate name="MCS15" ENP=""/>-->
+      </Argument>
+      <Argument name="N40M" Channelstr="38,54,62,151,159" ChannelFreqstr="5190,5270,5310,5755,5795">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+        
+        <!--author 何苹 Samsung WiFi MIMO
+        <Rate name="MCS9" ENP=""/>
+        <Rate name="MCS10" ENP=""/>
+        <Rate name="MCS11" ENP=""/>
+        <Rate name="MCS12" ENP=""/>
+        <Rate name="MCS13" ENP=""/>
+        <Rate name="MCS14" ENP=""/>
+        <Rate name="MCS15" ENP=""/>-->
+      </Argument>
+      <Argument name="AC20M" Channelstr="36,48,64,149,157,165" ChannelFreqstr="5180,5240,5320,5745,5785,5825">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+        <Rate name="MCS8" ENP=""/>
+      </Argument>
+      <Argument name="AC40M" Channelstr="38,54,62,151,159" ChannelFreqstr="5190,5270,5310,5755,5795">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+        <Rate name="MCS8" ENP=""/>
+        <Rate name="MCS9" ENP=""/>          
+        <!--author 何苹 Samsung WiFi MIMO
+        <Rate name="MCS10" ENP=""/>
+        <Rate name="MCS11" ENP=""/>
+        <Rate name="MCS12" ENP=""/>
+        <Rate name="MCS13" ENP=""/>
+        <Rate name="MCS14" ENP=""/>
+        <Rate name="MCS15" ENP=""/>   
+        <Rate name="MCS16" ENP=""/>
+        <Rate name="MCS17" ENP=""/>
+        <Rate name="MCS18" ENP=""/>
+        <Rate name="MCS19" ENP=""/>-->
+      </Argument>
+      <Argument name="AC80M" Channelstr="42,58,155" ChannelFreqstr="5210,5290,5775">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+        <Rate name="MCS8" ENP=""/>
+        <Rate name="MCS9" ENP=""/>
+          
+        <!--author 何苹 Samsung WiFi MIMO
+        <Rate name="MCS10" ENP=""/>
+        <Rate name="MCS11" ENP=""/>
+        <Rate name="MCS12" ENP=""/>
+        <Rate name="MCS13" ENP=""/>
+        <Rate name="MCS14" ENP=""/>
+        <Rate name="MCS15" ENP=""/>   
+        <Rate name="MCS16" ENP=""/>
+        <Rate name="MCS17" ENP=""/>
+        <Rate name="MCS18" ENP=""/>
+        <Rate name="MCS19" ENP=""/>-->
+      </Argument>
+      
+      <!--6391-->
+      <Argument name="AX20M" Channelstr="36,48,64,149,157,165" ChannelFreqstr="5180,5240,5320,5745,5785,5825">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+        <Rate name="MCS8" ENP=""/>
+        <Rate name="MCS9" ENP=""/>
+        <Rate name="MCS10" ENP=""/>
+        <Rate name="MCS11" ENP=""/>
+        <Rate name="MCS12" ENP=""/>
+        <Rate name="MCS13" ENP=""/>
+      </Argument>
+      <Argument name="AX40M" Channelstr="38,54,62,151,159" ChannelFreqstr="5190,5270,5310,5755,5795">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+        <Rate name="MCS8" ENP=""/>
+        <Rate name="MCS9" ENP=""/>
+        <Rate name="MCS10" ENP=""/>
+        <Rate name="MCS11" ENP=""/>
+        <Rate name="MCS12" ENP=""/>
+        <Rate name="MCS13" ENP=""/>
+      </Argument>
+      <Argument name="AX80M" Channelstr="42,58,155" ChannelFreqstr="5210,5290.5775">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+        <Rate name="MCS8" ENP=""/>
+        <Rate name="MCS9" ENP=""/>
+        <Rate name="MCS10" ENP=""/>
+        <Rate name="MCS11" ENP=""/>
+        <Rate name="MCS12" ENP=""/>
+        <Rate name="MCS13" ENP=""/>
+      </Argument>
+      <!-- 6391 add by lxy-->
+      <Argument name="AX160M" Channelstr ="50" ChannelFreqstr="5250">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+        <Rate name="MCS8" ENP=""/>
+        <Rate name="MCS9" ENP=""/>
+        <Rate name="MCS10" ENP=""/>
+        <Rate name="MCS11" ENP=""/>
+        <Rate name="MCS12" ENP=""/>
+        <Rate name="MCS13" ENP=""/>
+      </Argument>
+    </TestBAND>
+    <TestItem>
+      <Item name="TxItems"/>
+      <Item name="Sensitivity"/>
+      <Item name="MaxInputLevel"/>
+      <Item name="RSSI"/>
+      <Item name="WaterFall"/>
+    </TestItem>
+  </TestArgument>
+  <State>
+    <Item>Screen Out</Item>
+    <Item>Light Screen</Item>
+    <Item>Dynamic Wallpaper</Item>
+    <Item>LightScreen&amp;EMMC</Item>
+    <Item>Front Camera</Item>
+    <Item>Rear camera</Item>
+  </State>
+</WiFi_UI>

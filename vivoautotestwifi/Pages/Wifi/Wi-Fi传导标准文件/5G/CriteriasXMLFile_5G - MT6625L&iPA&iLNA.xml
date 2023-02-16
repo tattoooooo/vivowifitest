@@ -1,0 +1,1503 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<criterias>
+  <Agreement name="5G1_A">
+    <ratebit name="6Mbit/s">
+      <limits name="发射功率">15,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-91</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="9Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-8</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-84</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="12Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="18Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-80</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="24Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="36Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-73</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="48Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-69</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="54Mbit/s">
+      <limits name="发射功率">11.5,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-75</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+  </Agreement>
+  <Agreement name="5G1_N20M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">12,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-91</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-80</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-73</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-69</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-68</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">7.5,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-73</limits>
+      <limits name="最大输入电平">10%</limits>
+    </ratebit>
+
+  </Agreement>
+  <Agreement name="5G1_N40M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-79</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-74</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-70</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-66</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-65</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-64</limits>
+      <limits name="最大输入电平">10%</limits>
+    </ratebit>
+
+  </Agreement>
+  <Agreement name="5G1_AC20M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-85</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-80</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-73</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-69</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-68</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-67</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS8">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-30</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-62</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS9">
+      <limits name="发射功率"></limits>
+      <limits name="EVM矢量误差"></limits>
+      <limits name="中心频率误差"></limits>
+      <limits name="码片时钟频率误差"></limits>
+      <limits name="发射本振泄漏"></limits>
+      <limits name="最小接收灵敏度"></limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+  </Agreement>
+  <Agreement name="5G1_AC40M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-79</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-74</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-70</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-66</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-65</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-64</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS8">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-30</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-59</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS9">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-32</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-57</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+  </Agreement>
+  <Agreement name="5G1_AC80M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-79</limits>
+      <limits name="最大输入电平">10%</limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-76</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-74</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-71</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-67</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-63</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-62</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-61</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS8">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-30</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-56</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS9">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-32</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-54</limits>
+      <limits name="最大输入电平">10%</limits>
+    </ratebit>
+  </Agreement>
+  <Agreement name="5G4_A">
+    <ratebit name="6Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-85</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="9Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-8</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-84</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="12Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="18Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-80</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="24Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="36Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-73</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="48Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-69</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="54Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-68</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+  </Agreement>
+  <Agreement name="5G4_N20M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-85</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-80</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-73</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-69</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-68</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-67</limits>
+      <limits name="最大输入电平">10%</limits>
+    </ratebit>
+
+  </Agreement>
+  <Agreement name="5G4_N40M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-79</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-74</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-70</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-66</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-65</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-64</limits>
+      <limits name="最大输入电平">10%</limits>
+    </ratebit>
+
+  </Agreement>
+  <Agreement name="5G4_AC20M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-85</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-80</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-73</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-69</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-68</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-67</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS8">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-30</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-62</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS9">
+      <limits name="发射功率"></limits>
+      <limits name="EVM矢量误差"></limits>
+      <limits name="中心频率误差"></limits>
+      <limits name="码片时钟频率误差"></limits>
+      <limits name="发射本振泄漏"></limits>
+      <limits name="最小接收灵敏度"></limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+  </Agreement>
+  <Agreement name="5G4_AC40M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-79</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-74</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-70</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-66</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-65</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-64</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS8">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-30</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-59</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS9">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-32</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-57</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+  </Agreement>
+  <Agreement name="5G4_AC80M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-79</limits>
+      <limits name="最大输入电平">10%</limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-76</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-74</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-71</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-67</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-63</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-62</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-61</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS8">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-30</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-56</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS9">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-32</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-54</limits>
+      <limits name="最大输入电平">10%</limits>
+    </ratebit>
+  </Agreement>
+  <Agreement name="5G8_A">
+    <ratebit name="6Mbit/s">
+      <limits name="发射功率">15,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-91</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="9Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-8</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-84</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="12Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="18Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-80</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="24Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="36Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-73</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="48Mbit/s">
+      <limits name="发射功率">10,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-69</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="54Mbit/s">
+      <limits name="发射功率">11.5,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-15</limits>
+      <limits name="最小接收灵敏度">-75</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+  </Agreement>
+  <Agreement name="5G8_N20M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">12,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-91</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-80</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-73</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-69</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-68</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">7.5,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-20</limits>
+      <limits name="最小接收灵敏度">-73</limits>
+      <limits name="最大输入电平">10%</limits>
+    </ratebit>
+
+  </Agreement>
+  <Agreement name="5G8_N40M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-79</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-74</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-70</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-66</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-65</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">7,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-17</limits>
+      <limits name="最小接收灵敏度">-64</limits>
+      <limits name="最大输入电平">10%</limits>
+    </ratebit>
+
+  </Agreement>
+  <Agreement name="5G8_AC20M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-85</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-80</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-73</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-69</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-68</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-67</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS8">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-30</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-27.48</limits>
+      <limits name="最小接收灵敏度">-62</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS9">
+      <limits name="发射功率"></limits>
+      <limits name="EVM矢量误差"></limits>
+      <limits name="中心频率误差"></limits>
+      <limits name="码片时钟频率误差"></limits>
+      <limits name="发射本振泄漏"></limits>
+      <limits name="最小接收灵敏度"></limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+  </Agreement>
+  <Agreement name="5G8_AC40M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-82</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-79</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-77</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-74</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-70</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-66</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-65</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-64</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS8">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-30</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-59</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS9">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-32</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-30.56</limits>
+      <limits name="最小接收灵敏度">-57</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+  </Agreement>
+  <Agreement name="5G8_AC80M">
+    <ratebit name="MCS0">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-5</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-79</limits>
+      <limits name="最大输入电平">10%</limits>
+    </ratebit>
+    <ratebit name="MCS1">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-10</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-76</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS2">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-13</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-74</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS3">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-16</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-71</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS4">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-19</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-67</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS5">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-22</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-63</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS6">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-25</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-62</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS7">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-27</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-61</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS8">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-30</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-56</limits>
+      <limits name="最大输入电平"></limits>
+    </ratebit>
+    <ratebit name="MCS9">
+      <limits name="发射功率">9,20</limits>
+      <limits name="EVM矢量误差">-32</limits>
+      <limits name="中心频率误差">-100,100</limits>
+      <limits name="码片时钟频率误差">-20,20</limits>
+      <limits name="发射本振泄漏">-33.84</limits>
+      <limits name="最小接收灵敏度">-54</limits>
+      <limits name="最大输入电平">10%</limits>
+    </ratebit>
+  </Agreement>
+</criterias>

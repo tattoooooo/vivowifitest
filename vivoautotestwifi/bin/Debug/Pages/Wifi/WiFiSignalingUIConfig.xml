@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WiFi_UI>
+  <TestInformation>
+    <Item name="Tester" text=""/>
+    <Item name="ProjectName" text=""/>
+    <Item name="ProjectStage" text=""/>
+    <Item name="HardwareVersion" text=""/>
+    <Item name="SoftwareVersion" text=""/>
+  </TestInformation>
+  <SystemInformation>
+    <WiFi_IC name="WiFi IC" text=""/>
+    <TestMode name="TestMode" text=""/>
+      <!--
+    <TestChain name="TestChain" text=""/>-->
+    <Limits name="Limits" text=""/>
+    <!--<Item name="IP" text=""/>-->
+    <Instrument name="Instrument" text=""/>
+    <IsAutoControl name="AutoControl"/>
+  </SystemInformation>
+  <TestArgument>
+    <TestBAND name="2G4" text="0.8">
+      <Argument name="B">
+        <Rate name="1Mbit/s" ENP=""/>
+        <Rate name="2Mbit/s" ENP=""/>
+        <Rate name="5.5Mbit/s" ENP=""/>
+        <Rate name="11Mbit/s" ENP=""/>
+      </Argument>
+      <Argument name="G">
+        <Rate name="6Mbit/s" ENP=""/>
+        <Rate name="9Mbit/s" ENP=""/>
+        <Rate name="12Mbit/s" ENP=""/>
+        <Rate name="18Mbit/s" ENP=""/>
+        <Rate name="24Mbit/s" ENP=""/>
+        <Rate name="36Mbit/s" ENP=""/>
+        <Rate name="48Mbit/s" ENP=""/>
+        <Rate name="54Mbit/s" ENP=""/>
+      </Argument>
+      <Argument name="N20M">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+      </Argument>
+      <Argument name="N40M">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+      </Argument>
+    </TestBAND>
+    <TestBAND name="5G1" text="1.3">
+      <Argument name="A">
+        <Rate name="6Mbit/s" ENP=""/>
+        <Rate name="9Mbit/s" ENP=""/>
+        <Rate name="12Mbit/s" ENP=""/>
+        <Rate name="18Mbit/s" ENP=""/>
+        <Rate name="24Mbit/s" ENP=""/>
+        <Rate name="36Mbit/s" ENP=""/>
+        <Rate name="48Mbit/s" ENP=""/>
+        <Rate name="54Mbit/s" ENP=""/>
+      </Argument>
+      <Argument name="N20M">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+      </Argument>
+      <Argument name="N40M">
+        <Rate name="MCS0" ENP=""/>
+        <Rate name="MCS1" ENP=""/>
+        <Rate name="MCS2" ENP=""/>
+        <Rate name="MCS3" ENP=""/>
+        <Rate name="MCS4" ENP=""/>
+        <Rate name="MCS5" ENP=""/>
+        <Rate name="MCS6" ENP=""/>
+        <Rate name="MCS7" ENP=""/>
+      </Argument>
+      <Argument name="AC20M">
+        <Rate name="MCS0_7" ENP=""/>
+        <Rate name="MCS0_8" ENP=""/>
+        <Rate name="MCS0_9" ENP=""/>
+      </Argument>
+      <Argument name="AC40M">
+        <Rate name="MCS0_7" ENP=""/>
+        <Rate name="MCS0_8" ENP=""/>
+        <Rate name="MCS0_9" ENP=""/>
+      </Argument>
+      <Argument name="AC80M">
+        <Rate name="MCS0_7" ENP=""/>
+        <Rate name="MCS0_8" ENP=""/>
+        <Rate name="MCS0_9" ENP=""/>
+      </Argument>
+    </TestBAND>
+    <TestItem>
+      <Item name="TxItems"/>
+      <Item name="Sensitivity"/>
+    </TestItem>
+  </TestArgument>
+  <State>
+    <Item>Screen Out</Item>
+    <Item>Light Screen</Item>
+    <Item>Dynamic Wallpaper</Item>
+    <Item>LightScreen&amp;EMMC</Item>
+    <Item>Front Camera</Item>
+    <Item>Rear camera</Item>
+    <Item>BackDualFovCamera</Item>
+  </State>
+</WiFi_UI>

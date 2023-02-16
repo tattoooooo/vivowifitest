@@ -1,0 +1,197 @@
+﻿<UserControl x:Class="vivoautotestwifi.Pages.Wifi.WiFiConfigDong"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:vivoautotestwifi.Pages.Wifi"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="38"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="310"/>
+            <RowDefinition Height="6"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <!--<Grid.ColumnDefinitions>
+                <ColumnDefinition Width="110"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>-->
+            <!--<Button Content="Test Information" Style="{DynamicResource MainSyRegionalLabelStyle}" Grid.Column="0"  />
+            
+            这个页面是根据配置文件的值的变化而加载不同的xaml页面的，所以不用显性写死的形式
+            
+            -->
+            <Grid Grid.Column="1" Margin="5,0,0,6">
+                <WrapPanel Name="TestInformation" Margin="0,5,0,0" />
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <!--<Grid.ColumnDefinitions>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>-->
+            <!--<Button Content="System Information" Style="{DynamicResource MainSyRegionalLabelStyle}" Grid.Column="0" />-->
+            <Grid Grid.Column="1" Margin="5,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="79*"/>
+                    <ColumnDefinition Width="520*"/>
+                    <ColumnDefinition Width="175*"/>
+                    <ColumnDefinition Width="221*"/>
+                </Grid.ColumnDefinitions>
+                <WrapPanel Name="SystemInformation" Margin="0,0,0,0" Grid.ColumnSpan="4"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2" Margin="0,5,10,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300" MaxWidth="500"/>
+                <ColumnDefinition Width="6"/>
+                <ColumnDefinition Width="530"/>
+                <ColumnDefinition Width="6"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="47*"/>
+                    <ColumnDefinition Width="103*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="33"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Button Content="Test Rate" Style="{DynamicResource MainSyRegionalLabelStyle}" Grid.ColumnSpan="2" Margin="0,0,0,1"/>
+                <Grid Grid.Row="1" Grid.ColumnSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="22*"/>
+                        <ColumnDefinition Width="123*"/>
+                        <ColumnDefinition Width="147*"/>
+                        <ColumnDefinition Width="8*"/>
+                    </Grid.ColumnDefinitions>
+                    <!--
+                    <Border Margin="0,0,0,5" BorderThickness="1" Background="{DynamicResource SliderTick}">
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="5"/>
+                        </Border.Effect>
+                    </Border>
+                    -->
+                    <ScrollViewer Margin="5,0,0,0"  Grid.ColumnSpan="4">
+                        <StackPanel Name="BandChecked"/>
+                    </ScrollViewer>
+                </Grid>
+            </Grid>
+            <GridSplitter Grid.Column="1"/>
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="33"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="35"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" Content="Loss" Style="{DynamicResource MainSyRegionalLabelStyle}"  />
+                    <Grid Grid.Column="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="179*"/>
+                            <ColumnDefinition Width="316*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel  Name="Loss" Orientation="Horizontal" Margin="0,0,0,0" Grid.ColumnSpan="2"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Button Content="Channel" MouseEnter="MOUSEENTER" MouseLeave="MOUSELEAVE" Style="{DynamicResource MainSyRegionalLabelStyle}" Grid.Row="0"/>
+                    <Grid Grid.Row="1">
+                        <!--
+                        <Border Margin="0,0,0,5" BorderThickness="1" Background="{DynamicResource SliderTick}">
+                            <Border.Effect>
+                                <DropShadowEffect ShadowDepth="5"/>
+                            </Border.Effect>
+                        </Border>
+                        -->
+                        <ScrollViewer Margin="0,0,0,0">
+                            <StackPanel  Name="Channel" Orientation="Vertical"/>
+                        </ScrollViewer>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <GridSplitter Grid.Column="3"/>
+            <Grid Grid.Column="4">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Content="State" MouseEnter="MOUSEENTER" MouseLeave="MOUSELEAVE" VerticalAlignment="Top" Style="{DynamicResource MainSyRegionalLabelStyle}"/>
+                <ScrollViewer Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Padding="0,0,0,0">
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Name="State" Margin="0,0,0,0">
+
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+        <GridSplitter Grid.Row="3"/>
+        <Grid Grid.Row="4" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Margin="0,0,6,0" Background="BlueViolet" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                    <Button Content="  Test Item"  Margin="0,0,0,0" Style="{DynamicResource MainSyRegionalLabelStyle}"/>
+                </StackPanel>
+                <Grid Name="TestItemContain" Grid.Row="1">
+                    <!--
+                    <Border Margin="0,0,5,0" BorderThickness="1" Background="{DynamicResource SliderTick}">
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="5"/>
+                        </Border.Effect>
+                    </Border>
+                    -->
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="1" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Background="BlueViolet" HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                    <Button Content="ENP Power" MouseEnter="MOUSEENTER" MouseLeave="MOUSELEAVE"  Style="{DynamicResource MainSyRegionalLabelStyle}" />
+                </StackPanel>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="230*"/>
+                        <ColumnDefinition Width="45*"/>
+                        <ColumnDefinition Width="63*"/>
+                        <ColumnDefinition Width="462*"/>
+                    </Grid.ColumnDefinitions>
+                    <!--
+                    <Border Margin="0,0,0,0" BorderThickness="1" Background="{DynamicResource SliderTick}" Grid.ColumnSpan="2">
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="5"/>
+                        </Border.Effect>
+                    </Border>
+                    -->
+                    <ScrollViewer Grid.ColumnSpan="4" Margin="0,0,0,0" Style="{DynamicResource SimpleScrollViewer}">
+                        <WrapPanel Name="ENP"/>
+                    </ScrollViewer>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Popup Name="popup" StaysOpen="True" OpacityMask="#FFDDE805" PopupAnimation="Scroll" AllowsTransparency="True">
+            <StackPanel Orientation="Vertical" Background="#4C175183">
+                <!--<TextBlock Text="单个无规律信道请用英文逗号隔开，有规律信道请用英文冒号隔开"/>-->
+                <TextBlock Name="PopupText" Background="#CC5DCFF9"/>
+            </StackPanel>
+        </Popup>
+    </Grid>
+</UserControl>
